@@ -96,8 +96,8 @@ function App() {
       >
         <ol>
           <li>點擊「📥 下載 Excel 範例檔案」取得正確格式。</li>
-          <li>選擇部門。</li>
           <li>在 Excel 檔案中填寫計畫編號、名稱、合約金額與年度比例。</li>
+          <li>選擇部門。</li>
           <li>上傳填寫完成的 Excel 檔後自動繪圖。</li>
           <li>可下載 PNG 圖檔。</li>
         </ol>
@@ -105,7 +105,7 @@ function App() {
 
       {/* 下載按鈕 */}
       <a
-        href="sample.xlsx"
+        href="計畫列表範例.xlsx"
         download="計畫列表範例.xlsx"
         style={{
           display: "inline-block",
